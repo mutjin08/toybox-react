@@ -13,8 +13,7 @@ function App() {
       <AppProvider>
         <Routes>
           <Route path="/" element={<Layout/>} >
-              <Route index element={<Logon/>} ></Route>
-              <Route path="/home" element={<Home/>} ></Route>
+              <Route index element={<Home/>} ></Route>
               <Route path="/page1" element={<Page1/>} ></Route>
               <Route path="/page2" element={<Page2/>} ></Route>
           </Route>
